@@ -107,7 +107,8 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Here we assigned the integer object `5` to the variable name `a`.<br>Let's assign `a` to something else:"
+  "a =10":
+  
    ]
   },
   {
