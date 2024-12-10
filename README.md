@@ -2,6 +2,7 @@
  "cells": [
   {
    "cell_type": "markdown",
+   
    "metadata": {},
    "source": [
 "metadata":
@@ -10,6 +11,7 @@
 "source":{};
 "\n":
 "celldata":"markdown",
+"\n",
 "\n",
     "\n",
     "      :'\",<>/?|\\!@#%^&*~-+\n",
@@ -88,6 +90,7 @@
    ]
   },
   {
+  
    "cell_type": "code",
    "execution_count": null,
    "metadata": {},
