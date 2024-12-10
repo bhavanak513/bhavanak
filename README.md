@@ -208,6 +208,8 @@
    "metadata": {},
    "outputs": [],
    "source": [
+
+   
     "a"
    ]
   },
@@ -217,6 +219,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+   
     "a *= 2"
    ]
   },
@@ -226,6 +229,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+   
     "a"
    ]
   },
@@ -242,6 +246,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+   
 "type(a)"
 ]  
   },
@@ -251,6 +256,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+   
     "a = (1,2)"
    ]
   },
@@ -260,6 +266,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+   
     "type(a)"
    ]
   },
@@ -275,6 +282,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+   
     "my_income = 100\n",
     "tax_rate = 0.1\n",
     "my_taxes = my_income * tax_rate"
@@ -286,6 +294,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
+   
     "my_taxes"
    ]
   },
