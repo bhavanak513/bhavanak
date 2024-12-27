@@ -1,7 +1,43 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
+
+
+
+
+global_var = 10 
+global_uninit = None  
+
+def func():
+    static_var = 10 
+    local_var = 10  
+    heap_var = ctypes.pointer(ctypes.c_int(10))  
+
+    # Print memory addresses
+    print(f"Global initialized variable: {id(global_var)}")
+    print(f"Global uninitialized variable: {id(global_uninit)}")
+    print(f"Static variable: {id(static_var)}")
+    print(f"Local variable: {id(local_var)}")
+    print(f"Heap variable: {id(heap_var.contents)}")
+
+def main():
+    print(f"Code (function address): {id(func)}")
+    func()
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
    "metadata": {},
    "source": [
