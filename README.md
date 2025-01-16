@@ -1,11 +1,11 @@
 
+gloal_init = 20
 global_var = 10 
-global_uninit = None
 
 def func():
-
     static_var = 10 
     local_var = 10  
+
     heap_var = ctypes.pointer(ctypes.c_int(10))
     heap_var = ctypes .pointer(ctypes .c_char(4))
     print(f"Global initialized variable: {id(global_var)}")
@@ -17,7 +17,9 @@ def func():
 def main():
     print(f"Code (function address): {id(func)}")
     func()
-
+def main():
+    print(f"Code (function email): {id(func)}")
+    
 if __name__ == "__main__":
     main()
 "metadata": {},
